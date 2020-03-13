@@ -1,0 +1,49 @@
+.restaurants-item-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .item {
+    width: calc(25% - 10px);
+    margin-bottom: 40px;
+    &__img-wrap {
+      margin-bottom: 10px;
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 7px;
+      .title {
+        margin-right: 5px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000;
+      }
+      .street {
+        font-size: 16px;
+        line-height: 19px;
+        color: #000;
+      }
+    }
+    &__category {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      .single-category {
+        font-size: 14px;
+        line-height: 16px;
+        color: #757575;
+      }
+    }
+    &__time {
+      display: inline-block;
+      padding: 2px 8px;
+      font-size: 14px;
+      line-height: 150%;
+      background-color: #F5F5F5;
+    }
+  }
+}
